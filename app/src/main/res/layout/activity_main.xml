@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/img1"
+        ></ImageView>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Rotate"
+    android:id="@+id/btnrotate"
+    android:onClick="funRotate"
+    ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Fade In"
+        android:id="@+id/btnfadein"
+        android:onClick="fadeIn"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Fade Out"
+        android:id="@+id/btnfadeout"
+        android:onClick="fadeOut"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Scale In"
+        android:id="@+id/btnscalein"
+        android:onClick="scaleIn"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Scale In Code"
+        android:id="@+id/btnscaleincode"
+        android:onClick="scaleInCode"
+        ></Button>
+</LinearLayout>
